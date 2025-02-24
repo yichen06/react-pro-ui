@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // "rootDir": ".",
+    // "baseUrl": "src", // 替代方案：通过 baseUrl 调整路径解析
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "declaration": true, // 必须开启
+    "declarationDir": "dist", // 声明文件输出目录
+    "declarationMap": true, // 可选：生成声明映射
+    "rootDir": "src", // 确保包含源文件
+    "outDir": "dist", // 输出目录
+    "emitDeclarationOnly": true, // 仅生成声明文件
+    // "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+    // "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+  //   "files": [],
+  //   "references": [
+  //     { "path": "./tsconfig.app.json" },
+  //     { "path": "./tsconfig.node.json" }
+  //   ]
+}
